@@ -95,8 +95,48 @@ li{
    }
    
     
-   @media screen and (max-width: 768px){.andar,.linha,.Texto,.titulo,h4,p,h2,h1,img{
-    width: 100%;
-    flex-direction: column;
-   }
+   @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        max-width: 90%;
+    }
+
+    nav {
+      
+      font-size: 14px; /* Ajuste da fonte para caber melhor no quadrado */
+      width: 100vw;
   }
+
+  nav a {
+      padding: 8px 15px;
+      margin: 0 3px;
+      width: 100vw; ;
+    }
+
+    
+
+ 
+
+    h1 {
+        font-size: 3em;
+        max-width: 94%;
+        
+
+    }
+
+    h2 {
+        font-size: 1.2em;
+        max-width: 90%;
+    }
+    
+      img {
+          max-width: 90%; /* Limita o tamanho da imagem em telas pequenas */
+      }
+      li {font-size: 1.5em;
+        max-width: 90%;
+        }
+       .Texto {
+        font-size: 1.5em;
+        max-width: 90%;
+}
+   }
